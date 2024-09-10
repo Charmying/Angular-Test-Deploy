@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular-Test-Deploy": {
+    "Test-Angular-Deploy": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-test-deploy",
+            "outputPath": "dist/test-angular-deploy",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Angular-Test-Deploy:build:production"
+              "buildTarget": "Test-Angular-Deploy:build:production"
             },
             "development": {
-              "buildTarget": "Angular-Test-Deploy:build:development"
+              "buildTarget": "Test-Angular-Deploy:build:development"
             }
           },
           "defaultConfiguration": "development"

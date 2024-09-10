@@ -1,5 +1,5 @@
 {
-  "name": "angular-test-deploy",
+  "name": "test-angular-deploy",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Angular-Test-Deploy": "node dist/angular-test-deploy/server/server.mjs"
+    "serve:ssr:Test-Angular-Deploy": "node dist/test-angular-deploy/server/server.mjs"
   },
   "private": true,
   "dependencies": {
